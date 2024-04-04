@@ -1,13 +1,17 @@
-import React from 'react'
+
+import BannerHeader from './components/BannerHeader'
+import MainCard from './components/MainCard'
+import BannerSpace from './components/BannerSpace'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline uppercase">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque esse voluptatum rerum nisi id reiciendis, ipsam necessitatibus ullam, fuga est ratione reprehenderit quod temporibus quia quisquam quo maxime doloremque saepe.
-    </h1>
+      <BannerHeader/>
+      <MainCard/>
+      <BannerSpace/>
     </div>
   )
 }
 
 export default App
+
